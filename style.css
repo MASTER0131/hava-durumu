@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #f9e8b3 50%, #c4f2f0 50%); /* Üst sarı, alt mavi arka plan */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 450px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sun-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.city-name {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.details p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #444;
+}
+
+.fav-btn {
+    margin-top: 20px;
+    background-color: #fff9e6;
+    border: 1px solid #f0d080;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #333;
+}
